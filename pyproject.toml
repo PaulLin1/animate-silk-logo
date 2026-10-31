@@ -1,0 +1,21 @@
+[project]
+name = "animate-silk-logo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Paul Lin", email = "plin5166@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "opencv-python>=5.0.0.93",
+    "pillow>=13.0.0",
+]
+
+[project.scripts]
+animate-silk-logo = "animate_silk_logo:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
